@@ -47,10 +47,12 @@ body {
 .hero-menu {
   display: flex;
   justify-content: start;
-  padding: 20px;
+  padding: 100px;
   width: 1000px;
   height: 300px;
 }
+
+/* 1st child */
 .hero-text-group {
   flex: 1;
 }
@@ -65,19 +67,26 @@ body {
   color: #e5e7e5e5;
   margin-bottom: 10px;
 }
-.hero-image {
-  display: flex;
-  justify-content: end;
-  flex: 2 1 0%;
-  background-color: grey;
-  height: 75%;
-  /* border: 2px solid violet; */
-}
 .button {
+  font-size: 18px;
   background-color: #3882f6;
   color: #fff;
 }
 
+/* 2nd child */
+.hero-image {
+  display: flex;
+  justify-content: end;
+  flex: 1 1 auto;
+  width: 100px;
+  height: 60%;
+  /* border: 2px solid violet; */
+}
+.hero-image img {
+  width: 400px;
+  height: 200px;
+  object-fit: fill;
+}
 /*  */
 
 .quotes-container {
