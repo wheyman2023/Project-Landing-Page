@@ -118,18 +118,27 @@ body {
   border: 4px solid goldenrod; */
 }
 .image {
-  background-color: rgb(83, 40, 35);
+  /* background-color: rgb(83, 40, 35); */
   border: 4px solid rgb(32, 85, 218);
   margin: 20px;
   width: 150px;
   height: 150px;
-  border-radius: 12%;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.img-fill {
+  display: flex;
+  justify-content: center;
+}
+.img-item {
+  width: 150px;
+  height: 150px;
+}
+
 .img-desc {
-  margin-top: 164px;
+  margin-top: 16px;
   width: 120px;
   display: flex;
   justify-content: space-evenly;
@@ -191,7 +200,7 @@ body {
 .action-text {
   /* background-color: #3882f6; */
   /* border: 2px solid #fff; */
-  color: #fff;
+  color: #e5e7eb;
   font-size: 18px;
   margin: auto;
 }
@@ -200,12 +209,13 @@ body {
   font-weight: bold;
   background-color: #3882f6;
   border: 2px solid #fff;
-  color: #fff;
+  color: #e5e7eb;
   height: 50px;
   width: 140px;
   border-radius: 10px;
   margin: auto;
 }
+
 /*  */
 
 .footer-container {
@@ -214,6 +224,13 @@ body {
   color: #fff;
   display: flex;
   justify-content: center;
-  border: 4px solid gold;
-  height: 200px;
+  /* border: 4px solid gold; */
+  height: 60px;
+}
+.footer-box {
+  margin: auto;
+}
+.footer-box p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
